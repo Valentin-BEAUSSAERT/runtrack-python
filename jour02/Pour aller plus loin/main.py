@@ -18,11 +18,11 @@ if a + b > c and a + c > b and b + c > a:
 
     # Vérifier si le triangle est rectangle (théorème de Pythagore)
     if a**2 + b**2 == c**2 or a**2 + c**2 == b**2 or b**2 + c**2 == a**2:
-        if isocèle:
+        if isocèle == True:
             type_triangle = "rectangle et isocèle"
         else:
             type_triangle = "rectangle"
-    elif isocèle:
+    elif isocèle == True:
         type_triangle = "isocèle"
     else:
         type_triangle = "quelconque"
