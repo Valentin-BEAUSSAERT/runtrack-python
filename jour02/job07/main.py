@@ -2,12 +2,10 @@
 chaine_initiale = "abcdefghijklmnopqrstuvwxyz" * 10
 
 # Initialisation des variables
-index = 0
-niveau = 1
+debut = 0
+fin = 1
 
 # Boucle pour créer la pyramide
-while index + niveau <= len(chaine_initiale):
-    print(chaine_initiale[index:index + niveau])
-    index += niveau
-    niveau += 1
-
+while fin <= len(chaine_initiale):
+    print(chaine_initiale[debut:fin])
+    fin = fin + 1

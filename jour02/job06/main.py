@@ -1,4 +1,4 @@
-# Programme pour afficher les nombres premiers jusqu'à 1000 sans utiliser de fonction
+# Programme pour afficher les nombres premiers jusqu'à 1000
 
 i = 2  # Commencer à vérifier à partir de 2
 
