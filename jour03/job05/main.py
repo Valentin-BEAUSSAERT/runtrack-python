@@ -1,5 +1,6 @@
+#Définition de la fonction avec 3 paramètres
 def calcule(num1, operator, num2):
-    if operator == '+':
+    if operator == '+':             #Début de la boucle if qui additionne, soustrait, multiplie, divise,
         return num1 + num2
     elif operator == '-':
         return num1 - num2
