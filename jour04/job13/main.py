@@ -3,7 +3,7 @@ def remove_doublons(input_list):
     unique_liste = []  # Liste pour stocker les éléments uniques
     for chiffre in input_list:
         if chiffre not in unique_liste:
-            unique_liste.append(chiffre)
+            unique_liste += [chiffre]
     return unique_liste
 
 liste = [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
