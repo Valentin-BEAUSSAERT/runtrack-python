@@ -1,7 +1,7 @@
 def my_long_word(longueur, phrase):
-    """
-    Retourne les mots d'une phrase qui sont plus longs qu'une longueur donnée.
-    """
+    
+    #Retourne les mots d'une phrase qui sont plus longs qu'une longueur donnée.
+
     words = phrase.split()  # Sépare la phrase en mots
     long_words = []  # Liste pour stocker les mots plus longs que la longueur donnée
 
@@ -12,13 +12,13 @@ def my_long_word(longueur, phrase):
     return ' '.join(long_words)  # Retourne les mots séparés par des espaces
 
 def count_characters(word):
-    """
-    Compte le nombre de caractères dans un mot sans utiliser la fonction len().
-    """
+    
+    #Compte le nombre de caractères dans un mot sans utiliser la fonction len().
+    
     count = 0
     for caractere in word:
         count += 1
     return count
 
-test_sentence = "Les poubelles des uns font les trésors des autres"
-print(f"{my_long_word(3, test_sentence)}")
+phrase = "Les poubelles des uns font les trésors des autres"
+print(f"{my_long_word(0, phrase)}")
